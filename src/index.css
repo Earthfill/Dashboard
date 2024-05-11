@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: 'Bai Jamjuree'
+}
+
+@layer components {
+  .align-element {
+    @apply mx-auto max-w-7xl px-7;
+  }
+  
+  .align-page {
+    @apply shadow-sm md:max-w-full rounded-lg p-10 bg-white;
+  }
+
+  .page-title {
+    @apply capitalize text-xl font-medium tracking-tight;
+  }
+
+  .page-grid {
+    @apply grid md:grid-cols-3 md:gap-4 ;
+  }
+
+  .button-style {
+    @apply py-2 px-4 rounded-md capitalize text-sm
+  }
+}
