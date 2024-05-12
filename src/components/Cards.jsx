@@ -1,10 +1,11 @@
-import { iconsImgs } from "../utils/images"
+import { iconsImgs } from "../utils/images";
+import SectionTitle from './SectionTitle';
 
 const Cards = () => {
   return (
     <div className="flex flex-col bg-primary p-4 rounded-md text-base-100">
       <div className="flex justify-between items-center">
-        <h3 className="text-xl font-semibold">Cards</h3>
+        <SectionTitle title='Cards' />
         <button className="flex items-center">
           <img src={iconsImgs.plus} alt="Add" className="w-5" />
         </button>

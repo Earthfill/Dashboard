@@ -1,11 +1,12 @@
 import { savings } from "../data"
 import { iconsImgs, personsImgs } from "../utils/images"
+import SectionTitle from "./SectionTitle"
 
 const Savings = () => {
   return (
     <div className="flex flex-col bg-primary p-4 rounded-md text-base-100">
       <div className="flex items-center justify-between">
-        <h3 className="text-xl font-semibold">Savings</h3>
+        <SectionTitle title='Savings' />
         <button className="flex items-center">
           <img src={iconsImgs.plus} alt="Add" className="w-5" />
         </button>

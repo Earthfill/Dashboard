@@ -1,11 +1,12 @@
 import { transactions } from "../data"
 import { iconsImgs } from "../utils/images"
+import SectionTitle from "./SectionTitle"
 
 const Transactions = () => {
   return (
     <div className="flex flex-col bg-primary p-4 rounded-md">
       <div className="flex justify-between items-center">
-        <h3 className="text-xl font-semibold text-base-100">All Transactions</h3>
+        <SectionTitle title='All Transactions' />
         <button className="flex items-center">
           <img src={iconsImgs.plus} alt="Add" className="w-5" />
         </button>
@@ -23,7 +24,7 @@ const Transactions = () => {
                   <p className="text-gray-300 cursor-pointer">Description here</p>
                 </div>
               </div>
-              <div className="font-bold text-scarlet">${transaction.amount}</div>
+              <div className="font-bold text-gray-300">${transaction.amount}</div>
             </div>
           ))}
         </div>

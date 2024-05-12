@@ -8,7 +8,8 @@ import Subscriptions from "./Subscriptions";
 import Savings from "./Savings";
 import Loans from "./Loans";
 import Financial from "./Financial";
+import SectionTitle from "./SectionTitle";
 
 export { 
-  ContentTop, ContentMain, Cards, Transactions, Report, Budget, Subscriptions, Savings, Loans, Financial
+  ContentTop, ContentMain, Cards, Transactions, Report, Budget, Subscriptions, Savings, Loans, Financial, SectionTitle
 }

@@ -1,11 +1,12 @@
 import { subscriptions } from "../data"
 import { iconsImgs } from "../utils/images"
+import SectionTitle from "./SectionTitle"
 
 const Subscriptions = () => {
   return (
     <div className="flex flex-col bg-primary p-4 rounded-md text-base-100">
       <div className="flex items-center justify-between">
-        <h3 className="text-xl font-semibold">Subscriptions</h3>
+        <SectionTitle title='Subscriptions' />
         <button className="flex items-center">
           <img src={iconsImgs.plus} alt="Add" className="w-5" />
         </button>

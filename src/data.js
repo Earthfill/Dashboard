@@ -44,7 +44,7 @@ export const reportData = [
         id: 14,
         month: "Jan",
         value1: 45,
-        value2: null
+        value2: null,
     },
     {
         id: 15,
